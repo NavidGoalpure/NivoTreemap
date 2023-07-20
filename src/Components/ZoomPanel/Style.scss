@@ -1,0 +1,41 @@
+.heatmap__zoomPanel {
+  position: fixed;
+  bottom: 1rem;
+  left: 1rem;
+  button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #323333;
+    opacity: 0.5;
+    width: 2rem;
+    height: 2rem;
+    margin-top: 2px;
+    cursor: pointer;
+    border-radius: 2px;
+    font-size: 24px;
+    color: white;
+    overflow: hidden;
+    position: relative;
+    border: none;
+  }
+  button:after {
+    content: '';
+    width: 25%;
+    height: 200%;
+    position: absolute;
+    top: 0;
+    left: -30%;
+    transform: rotate(-45deg);
+    background-color: white;
+    opacity: 0.8;
+  }
+
+  button:active:after {
+    transform: rotate(-45deg) translateX(50px);
+    transition: all 0.3s ease;
+  }
+  svg {
+    font-size: 1rem;
+  }
+}

@@ -1,0 +1,29 @@
+.heatmap__tooltip {
+  color: #ffffff;
+  background: radial-gradient(
+    50% 50% at 50% 50%,
+    #707070 0%,
+    #606060 50%,
+    #545454 92.19%,
+    #555555 100%
+  );
+  border: 1px solid #fff;
+  border-radius: 10px;
+  padding: 1rem;
+  padding-top: 0;
+  font-size: 12px;
+
+  h4 {
+    margin-top: 1rem;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+  }
+  p {
+    margin-right: auto;
+    width: max-content;
+    span {
+      font-weight: bold;
+    }
+  }
+}

@@ -1,0 +1,12 @@
+.heatmap__CustomLabel {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  h2,
+  h3 {
+    text-shadow: rgba(50, 49, 54, 0.28) 0.015em 0.015em 0px;
+    align-items: center;
+  }
+}
